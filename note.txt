@@ -1,0 +1,46 @@
+Database Design
+
+Categories
+id name timestamp
+
+Items
+id categories_id name img price active timestamp
+
+Table
+id  name  timestamp
+
+reservation
+id  table_id   items_id   order_code  timestamp
+    1          1                abc
+    1          2                abc
+
+
+OrderComplete
+id    order_code   is_complete
+        abc             0
+
+Order History
+id  table_id   items_id  is_done order_code timestamp
+
+
+
+
+
+Departments
+id    name    created_at
+
+Specialist
+id    name   departments_id   phone   email   created_at
+
+Patients
+id   name    phone   email   created_at
+
+Specialist_schedule
+id  specialist_id   day   time  limit  created_at
+
+Appointment
+id    specialist_id   patients   dateTime  count  created_at
+
+
+
+Project Mangement

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Roboto&display=swap');
+
+.app-font{
+    font-family: 'Fira Sans Condensed', sans-serif !important;
+}
+.content-font{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.card{
+    width: 100%;
+    padding:50px 0;
+    background-image: url(../img/cat_bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.card .overlay{
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(25deg, rgba(49, 49, 49, 0.361), rgba(46, 46, 46, 0.158));
+}
+.card .card-body{
+    position: relative;
+}
+.card-body h1{
+    text-align: center;
+    color:#fff;
+    font-size: 1.3em;
+}
